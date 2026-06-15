@@ -30,3 +30,37 @@ TypeScript uses compile time type checking.
 
 Which means it checks if the specified types match before running the code, not while running the code.
 
+++++++========Installing the Compiler=====+++++
+
+TypeScript has an official compiler which can be installed through npm.
+
+npm install -d Typescript
+
+The compiler is installed in the node_modules directory and can be run with: npx tsc.
+
+npx tsc
+
+Which should give you an output similar to:
+
+Version 4.5.5
+
+++++====Installing Globally======++++++
+
+Installing TypeScript globally means adding the tsc command to your system PATH so it is available from any folder.
+
+npm install -g typescript
+
+tsc -v
+
++====Configuring the compiler====+
+
+By default the TypeScript compiler will print a help message when run in an empty project.
+
+The compiler can be configured using a tsconfig.json file.
+
+You can have TypeScript create tsconfig.json with the recommended settings with:
+
+npx tsc --init
+
+
+
