@@ -1,7 +1,7 @@
 {
   "name": "typescript",
   "version": "1.0.0",
-  "description": "",
+  "description": "<img width=\"1376\" height=\"768\" alt=\"Gemini_Generated_Image_509dit509dit509d\" src=\"https://github.com/user-attachments/assets/b0a2f821-db8f-4462-9661-d6d09f7277b6\" />",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -17,7 +17,7 @@
     "url": "https://github.com/MuhammadIkrash/Typescript/issues"
   },
   "homepage": "https://github.com/MuhammadIkrash/Typescript#readme",
-  "devDependencies": {
+  "dependencies": {
     "typescript": "^6.0.3"
   }
 }
